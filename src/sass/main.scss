@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Lalezar&family=Lilita+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li, a{
+    text-decoration: none;
+    list-style: none;
+    cursor: pointer;
+}
+button{
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+
+.product__title{
+    color: rgb(0, 0, 0);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39px;
+    letter-spacing: 5%;
+    text-align: left;
+    margin: 100px auto;
+}
+section{
+    .stock{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        div{
+            width: 23px;
+            height: 79px;
+            border-radius: 10px;
+            background: rgb(255, 4, 4);
+        }
+    }
+    h1{
+        color: rgb(214, 40, 40);
+        font-family: Lalezar;
+        font-size: 48px;
+        font-weight: 400;
+        line-height: 60px;
+        letter-spacing: 0%;
+        text-align: center;
+    }
+    .info{
+        color: rgb(0, 0, 0);
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 19px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+    .informations{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        .info{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            h1{
+                color: rgb(0, 0, 0);
+                font-family: Lalezar;
+                font-size: 48px;
+                font-weight: 400;
+                line-height: 60px;
+                letter-spacing: 0%;
+                text-align: center; 
+            }
+            p{
+                width: 339px;
+                color: rgb(0, 0, 0);
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 22px;
+                letter-spacing: 0%;
+                text-align: center;
+            }
+        }
+    }
+}
+.form{
+    display: flex;
+    border-radius: 20px;
+    background: rgb(237, 242, 244);
+    padding: 22px 59px 30px 33px;
+    width: 1135px;
+    gap: 75px;
+    align-items: center;
+    .form__title{
+        display: flex;
+        flex-direction: column;
+    }
+    h1{
+        text-align: left;
+    }
+    p{
+        width: 648px;
+    }
+    button{
+        width: 251px;
+        color: rgb(255, 255, 255);
+        font-family: Lalezar;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 31px;
+        letter-spacing: 0%;
+        text-align: center;
+        padding: 14px 6px;
+        border-radius: 20px;
+        background: rgb(255, 0, 0);
+        &:hover{
+            background: rgb(255, 0, 0);
+        }
+    }
+}

@@ -1,0 +1,19 @@
+.nav__links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 34px;
+    a{
+        color: rgb(0, 0, 0);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19px;
+        letter-spacing: 0%;
+        text-align: center;
+        transition: .3s linear;
+        &:hover{
+            color: rgb(255, 0, 0);
+            transition: .3s linear;
+        }
+    }
+}
